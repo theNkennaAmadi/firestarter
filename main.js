@@ -18,4 +18,4 @@ gsap.to(".box", {
 
 console.log("yes");
 
-console.log("okay");
+console.log("okayy");
