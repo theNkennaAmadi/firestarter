@@ -1,7 +1,9 @@
+/*
 import "./style.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Flip } from "gsap/Flip";
+*/
 gsap.registerPlugin(ScrollTrigger, Flip);
 
 console.log("hello");
@@ -13,3 +15,7 @@ gsap.to(".box", {
   },
   x: 500,
 });
+
+console.log("yes");
+
+console.log("okay");
