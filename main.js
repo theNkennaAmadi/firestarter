@@ -17,5 +17,3 @@ gsap.to(".box", {
 });
 
 console.log("yes");
-
-console.log("okayy");
