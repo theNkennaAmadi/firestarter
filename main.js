@@ -15,5 +15,3 @@ gsap.to(".box", {
   },
   x: 500,
 });
-
-console.log("yes");
