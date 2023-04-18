@@ -7,6 +7,8 @@ gsap.registerPlugin(ScrollTrigger, Flip);
 
 console.log("final ");
 
+const bodyElem = document.querySelector("body");
+
 gsap.to(".box", {
   scrollTrigger: {
     trigger: ".box",
