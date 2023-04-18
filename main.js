@@ -5,9 +5,10 @@ import { Flip } from "gsap/Flip";
 
 gsap.registerPlugin(ScrollTrigger, Flip);
 
-console.log("final ");
+console.log("final 2");
 
-const bodyElem = document.querySelector("body");
+const boxElem = document.querySelector(".box");
+const width = boxElem.clientWidth;
 
 gsap.to(".box", {
   scrollTrigger: {
