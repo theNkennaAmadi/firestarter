@@ -5,7 +5,7 @@ import { Flip } from "gsap/Flip";
 
 gsap.registerPlugin(ScrollTrigger, Flip);
 
-console.log("now we are talking 3 ");
+console.log("now we are talking 56 ");
 
 gsap.to(".box", {
   scrollTrigger: {
