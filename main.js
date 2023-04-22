@@ -5,7 +5,7 @@ import { Flip } from "gsap/Flip";
 
 gsap.registerPlugin(ScrollTrigger, Flip);
 
-console.log("final 2");
+console.log("okay lets move this box");
 
 const boxElem = document.querySelector(".box");
 const width = boxElem.clientWidth;
